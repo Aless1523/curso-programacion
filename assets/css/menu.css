@@ -1,0 +1,31 @@
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    color: var(--white);
+    background-color: var(--main-color);
+}
+.logo img{
+    height: 80px;
+    width: 250px;
+    display: block;
+}
+.nav_links{
+    list-style: none; /*quita las vinetas del menu*/
+    display:flex; /*esto hace que las opciones de la lista queden en horinzontal*/
+}
+.nav_links{
+    margin-left: 50px;
+}
+.nav_links li a{
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px;
+}
+.nav_links li a:hover{
+    color:  var(--red)
+}

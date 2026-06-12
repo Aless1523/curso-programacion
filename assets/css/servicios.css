@@ -1,0 +1,20 @@
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; /*Gap es la separacion de las columnas*/
+}
+
+.servicios .col {
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 50px;
+}
+.servicios .col:hover{
+    background-color: var(--black);
+
+    color: var(--white)
+}
+
+.mt-40{
+    margin-top: 40px;
+}
