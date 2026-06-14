@@ -3,7 +3,7 @@
 
 .quienes-somos{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     gap: 40px
 
 }
