@@ -23,64 +23,48 @@
                 <li><a href="contacto.html"target="_self">Contacto</a></li>
             </ul>
         </nav>
-    </header>   
-</body>
-</html>
+    </header> 
+<section class="title center pt-80">
+    <h1>Contactanos</h1>
+    <p>Llego el momento de conocernos mejor, estamos listos para cubrir tus requerimientos</p>
+</section>
+<section class="contacto">
+    <div class="col">
+        <ul>
+            <li><i class="fa-solid fa-location-dot"></i>Av. Principal de San Agustin #63-2 . Maracay. Estado Aragua</li>
+            <li><i class="fa-solid fa-location-dot"></i>Av. Cedeño Residencias Cathedral Pb. Local 2. San Juan de los Morros</li>
+            <li><i class="fa-solid fa-location-dot"></i>CC. Lido Chacao Caracas</li>
+            <li><i class="fa-solid fa-mobile-screen"></i>Móvil: 58 412-0360137</li>
+        </ul>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.1954541575888!2d-67.58949592543101!3d10.245814668757674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2aa9a22ae8d705%3A0xc93b6fc74ba9a8f3!2sAcademia%20Endigital!5e0!3m2!1ses!2sve!4v1781448776700!5m2!1ses!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
-<section class="container-fluid">
-    <article class="quienes-somos">
-        <div class="col">
-            <img src="assets/images/team.jpg.jpeg" alt="team" class="img-fluid" />
-        </div>
-        <div class="col p-40">
-            <h2>Quienes somos</h2>
-            <p>
-                Somos un equipo de jovenes profesionales, amantes del desarrollo
-                tecnologico en Venezuela. Con los conocimientos y habilidades para
-                brindarte soluciones efectivas a tus necesidades. Entre ellas tenemos:
-            </p>
-            <li><i class="fa-solid fa-circle-check"></i> Landing page</li>
-            <li><i class="fa-solid fa-circle-check"></i> E-commerce</li>
-            <li><i class="fa-solid fa-circle-check"></i>
-                Sitio web informativo
-            <li><i class="fa-solid fa-circle-check"></i> Apps</li>
-            </li>
-            </ul>
-        </div>
-    </article>
+    <div class="col">
+        <form class="form" name="contacto" action="#" method="post">
+        <label id="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Escribe tu nombre por favor" required>
+        <label id="apellido">apellido</label>
+        <input type="text" name="apellido" placeholder="Escribe tu apellido por favor" required>
+        <label id="email">email</label>
+        <input type="text" name="email" placeholder="Escribe tu email por favor" required>
+        <label id="ciudad">Ciudad</label>
+        <select name="ciudad">
+            <option value=""> Seleccione una ciudad</option>
+            <option value="maracay">Maracay</option>
+            <option value="caracas">Caracas</option>
+            <option value="valencia">Valencia</option>
+        </select>
+        <label> Fecha de nacimiento</label>
+        <input type="date" name="fechanac" required>
+        
+        <label> Mensaje</label>
+        <textarea rows="4" cols="100" name="Mensaje"></textarea>
+        <input type="submit" value="enviar">
+        </form>
+    </div>
 </section>
 
-<section class="container-fluid center mt-40">
-    <h2>Conoce nuestros servicios</h2>
-    <p>Estamos listos para brindarte soluciones reales a tus problemas</p>
-    <div class="servicios">
-        <div class="col mt-40">
-         <i class="fa-solid fa-desktop"></i>
-         <h3>Sitios web</h3>
-        </div>
-    <div class="col mt-40">
-        <i class="fa-solid fa-desktop"></i>
-        <h3>Lading page</h3>
-    </div>
-    <div class="col mt-40">
-        <i class="fa-solid fa-desktop"></i>
-        <h3>Desarrollo de Apps</h3>
-    </div>
-        <div class="col mt-40">
-         <i class="fa-solid fa-desktop"></i>
-         <h3>Mantenimiento web</h3>
-        </div>
-    <div class="col mt-40">
-        <i class="fa-solid fa-desktop"></i>
-        <h3>Redes</h3>
-    </div>
-    <div class="col mt-40">
-        <i class="fa-solid fa-desktop"></i>
-        <h3>Formaciones</h3>
-    </div>
-    </div>
-</section>
-<footer class="container-fluid">
+    <footer class="container-fluid">
     <div class="footer">
         <div class="col">
             <img
